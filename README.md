@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# 💰 Costs — Gerenciador de Projetos
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O **Costs** é uma aplicação web desenvolvida para auxiliar no planejamento e controle financeiro de projetos. Ele permite cadastrar iniciativas, definir orçamentos máximos e gerenciar os serviços vinculados a cada projeto de forma totalmente dinâmica.
 
-## Available Scripts
+Este projeto foi construído para consolidar conceitos essenciais de desenvolvimento web no **React**, praticando a criação de interfaces reativas, gerenciamento de estado e integração com APIs.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🎯 Objetivos de Aprendizado
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Fundamentos Sólidos de React:** Prática intensa de componentes, props, hooks (`useState`, `useEffect`) e manipuladores de eventos.
+- **Operações de CRUD:** Criação, leitura, edição e exclusão de dados em tempo real.
+- **Arquitetura de CSS Modules:** Estilização escopada e modular para evitar vazamento de estilos entre componentes.
+- **Integração com API REST:** Comunicação assíncrona para persistência e manipulação de dados em formato JSON.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🚀 Funcionalidades Principais
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- ➕ **Cadastro de Projetos:** Criação de novos projetos com definição de nome, categoria e orçamento máximo.
+- 📋 **Listagem Dinâmica:** Visualização clara e organizada de todos os projetos cadastrados na plataforma.
+- ✏️ **Gestão e Edição:** Adição e remoção de serviços dentro do projeto, atualizando automaticamente os custos e o saldo do orçamento.
+- 🗑️ **Exclusão:** Remoção simples de projetos com atualização imediata da interface.
+- 🧭 **Navegação SPA:** Transição fluida entre telas usando rotas no Front-end, sem recarregamento da página.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Tecnologias & Ferramentas
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React.js** — Biblioteca para construção de interfaces reutilizáveis e declarativas
+- **React Router Dom** — Gerenciamento de rotas e navegação da aplicação
+- **CSS Modules** — Estilização modular e organizada por componente
+- **React Icons** — Pacote de ícones para auxílio visual e UX
+- **JSON Server** — API REST simulada para consumo e persistência de dados
+- **UUID** — Gerador de identificadores únicos para instâncias de dados
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 👨‍💻 Sobre o Desenvolvedor
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Projeto desenvolvido com o objetivo de fortalecer a lógica de programação e criar uma base sólida na construção de aplicações Front-end modernas.
