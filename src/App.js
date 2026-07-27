@@ -3,25 +3,27 @@ import Home from './components/pages/Home';
 import Contact from './components/pages/Contact';
 import Company from './components/pages/Company';
 import NewProject from './components/pages/NewProject';
+import Projects from './components/pages/Projects';
 import Container from './components/layout/Container';
-
+import Navbar from './components/layout/Navbar';
+import Footer from './components/layout/Footer';
 function App() {
+  const redes = ['Github', 'Linkedin', 'Instagram']
   return (
     <Router>
-      <div>
-        <Link to='/'>Home</Link>
-        <Link to='/company'>Empresa</Link>
-        <Link to='/contact'>Contato</Link>
-        <Link to='/newproject'>Novo Projeto</Link>
-      </div>
-      <Container customClass="min-height">
-      <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route path="/company" element={<Company />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/newproject" element={<NewProject />} />
-      </Routes>
-      </Container>
+        <Navbar />
+        <Container customClass='min-height' >
+          <div style={{ color: 'blue' }}>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/company" element={<Company />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/projects" element={<Projects />} />
+            </Routes>
+          </div>
+        </Container>
+        <Footer autor="Vinicius" ano={2025} estaLogado={false} redesSociais={redes}
+        />
     </Router>
   );
 }
