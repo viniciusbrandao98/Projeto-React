@@ -1,16 +1,21 @@
-function Footer({ autor, ano, estaLogado, redesSociais }) {
-    return (
-        <div>
-            <h1>Desenvolvido com muito carinho por <strong>{autor}</strong></h1>
-            <p>Ele está logado desde {estaLogado}</p>
-            <p>O ano foi {ano}</p>
-            <h1>Minhas redes:</h1>
-            <ul>
-                {redesSociais.map((redes) => (
-                    <li>{redes}</li>
-                ))}
+import { AiFillInstagram, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import styles from './Footer.module.css'
+function Footer() {
+    return(
+        <footer className={styles.footer}>
+            <ul className={styles.social_list}>
+                <li>
+                    <AiFillInstagram/>
+                </li>
+                <li>
+                    <AiFillGithub />
+                </li>
+                <li>
+                    <AiFillLinkedin/>
+                </li>
             </ul>
-        </div>
+            <p className={styles.copy_right}><span>Vinícius</span> &copy; 2026</p>
+        </footer>
     )
 }
 
