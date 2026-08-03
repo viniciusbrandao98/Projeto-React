@@ -8,22 +8,21 @@ import Container from './components/layout/Container';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 function App() {
-  const redes = ['Github', 'Linkedin', 'Instagram']
   return (
     <Router>
-        <Navbar />
-        <Container customClass='min-height' >
-          <div style={{ color: 'blue' }}>
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/company" element={<Company />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="/projects" element={<Projects />} />
-            </Routes>
-          </div>
-        </Container>
-        <Footer autor="Vinicius" ano={2025} estaLogado={false} redesSociais={redes}
-        />
+      <Navbar />
+      <Container customClass='min-height' >
+        <div style={{ color: 'blue' }}>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/company" element={<Company />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/newprojects" element={<NewProject />} />
+          </Routes>
+        </div>
+      </Container>
+      <Footer />
     </Router>
   );
 }
