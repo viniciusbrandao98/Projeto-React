@@ -1,6 +1,6 @@
-# 💰 Costs — Gerenciador de Projetos
+# 💰 Your Project — Gerenciador de Projetos
 
-O **Costs** é uma aplicação web desenvolvida para auxiliar no planejamento e controle financeiro de projetos. Ele permite cadastrar iniciativas, definir orçamentos máximos e gerenciar os serviços vinculados a cada projeto de forma totalmente dinâmica.
+O **Your Project** é uma aplicação web desenvolvida para auxiliar no planejamento e controle financeiro de projetos. Ele permite cadastrar iniciativas, definir orçamentos máximos e gerenciar os serviços vinculados a cada projeto de forma totalmente dinâmica.
 
 Este projeto foi construído para consolidar conceitos essenciais de desenvolvimento web no **React**, praticando a criação de interfaces reativas, gerenciamento de estado e integração com APIs.
 
