@@ -3,18 +3,23 @@ import Input from '../Form/Input'
 function ProjectForm() {
     return (
         <form className={styles.form}>
-            <Input 
+            <Input
                 type="text"
-                text="Insira o nome do projeto"
+                text="Nome do Projeto"
                 name="name"
                 placeholder="Insira o nome do Projeto"
             />
-              <Input 
+            <Input
                 type="Number"
                 text="Orçamento do projeto"
                 name="budget"
                 placeholder="Insira o orçamento total"
             />
+            <Input 
+            
+            />
+
+
 
 
         </form>

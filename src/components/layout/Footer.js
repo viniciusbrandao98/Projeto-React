@@ -14,7 +14,7 @@ function Footer() {
                     <AiFillLinkedin />
                 </li>
             </ul>
-            <p className={styles.copy_right}><span>Vinícius</span> &copy; 2026</p>
+            <p><span>Vinícius</span> &copy; 2026</p>
         </footer>
     )
 }
